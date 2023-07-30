@@ -1,0 +1,65 @@
+/* user.component.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Updated background color */
+  }
+  .logout-container {
+    text-align: right;
+    padding: 10px;
+  }
+  .logout-button {
+    background-color: #164B60;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .user-id-container {
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #164B60;
+    padding: 10px;
+    padding-left: 40px;
+    color: white; /* Set the text color to white */
+  }
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #164B60;
+  }
+  .action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .action-button {
+    background-color: #164B60;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  .buttons-container {
+    text-align: center;
+    margin-top: 160px;
+  }
+  /* Add margin to the right side of the "Upload" button and the left side of the "View" button */
+  .action-button:first-child {
+    margin-right: 30px;
+  }
+  .action-button:last-child {
+    margin-left: 30px;
+  }
+  

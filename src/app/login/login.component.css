@@ -1,0 +1,55 @@
+/* login.component.css */
+body {
+    background-color: rgba(51, 122, 183, 0.5);
+    background-image: url('https://wallpaperaccess.com/full/1104818.jpg');
+  }
+  
+  .login-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .create-account {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .create-account a {
+    color: #337ab7;
+  }
+  

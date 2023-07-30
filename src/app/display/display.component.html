@@ -1,0 +1,71 @@
+<!-- display.component.html -->
+<div class="ct-pageWrapper" id="ct-js-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">FeedGen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      </button>
+      <div class="ml-auto">
+        <a href="home.html">
+          <button class="btn btn-primary navbar-btn">Logout</button>
+        </a>
+      </div>
+    </nav>
+  </div>
+  
+  <section style="height: 80vh; padding: 30px;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="card-title valid-transactions-heading">Valid Transactions</h2>
+          <br>
+          <!-- Shift "Filters" Heading and filter inputs one more line below -->
+          <div class="mb-3"></div> <!-- Empty div for space -->
+          <div class="filter-container">
+            <div class="filter-heading"></div>
+            <div class="form-group filter-input">
+              <input type="text" class="form-control" id="idFilter" placeholder="Enter ID">
+            </div>
+            <div class="filter-heading"></div>
+            <div class="form-group filter-input">
+              <input type="date" class="form-control" id="dateFilter">
+            </div>
+            <button type="button" class="btn btn-secondary" id="clearButton">Clear Filters</button>
+          </div>
+          <div class="table-container">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Transaction Ref ID</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Payer Name</th>
+                  <th scope="col">Payer Account No.</th>
+                  <th scope="col">Payee Name</th>
+                  <th scope="col">Payee Account No.</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Validity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>John Doe</td>
+                  <td>john.doe@example.com</td>
+                  <td>123-456-7890</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jane Smith</td>
+                  <td>jane.smith@example.com</td>
+                  <td>987-654-3210</td>
+                  <td>jane.smith@example.com</td>
+                  <td>jane.smith@example.com</td>
+                  <td>jane.smith@example.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

@@ -1,0 +1,12 @@
+<!-- home.component.html -->
+<a href="login.html" id="loginButton">Login</a>
+
+<!-- "i" button -->
+<span class="info-button" (click)="toggleTooltip()">i</span>
+<!-- Tooltip information -->
+<span class="tooltip" [hidden]="!showTooltip">
+  Generate the feed file towards clearing system in a specific format based on the input transactions to the system.
+</span>
+
+<!-- Your content goes here -->
+<div id="headingContainer">{{ headingText }}</div>

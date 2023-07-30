@@ -1,0 +1,65 @@
+/* display.component.css */
+body {
+    background-color: black;
+  }
+  
+  .card {
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ECF9FF;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust styles for the filter inputs */
+  .filter-heading {
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .filter-input {
+    margin-right: 10px;
+  }
+  
+  #clearButton {
+    padding: 5px 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px; /* Add some space between the second filter and the button */
+  }
+  
+  .table-container {
+    margin-top: 30px;
+  }
+  
+  .filter-container input {
+    margin-left: 10px;
+  }
+  
+  .filter-heading {
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .main-heading {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .valid-transactions-heading {
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

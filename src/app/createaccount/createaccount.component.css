@@ -1,0 +1,29 @@
+/* Add styling specific to the createaccount component if needed */
+/* Example: */
+h1 {
+    color: #164B60;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #164B60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

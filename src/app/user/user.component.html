@@ -1,0 +1,19 @@
+<!-- user.component.html -->
+<div class="logo-container">
+    <span class="logo">FeedGen</span>
+  </div>
+  <div class="logout-container">
+    <button id="logout-button" class="logout-button" (click)="logout()">Logout</button>
+  </div>
+  <div class="user-id-container">
+    <h1>User Details:</h1>
+    <p>User ID: {{ user?.id }}</p>
+    <p>Username: {{ user?.username }}</p>
+    <p>Email: {{ user?.email }}</p>
+  </div>
+  
+  <!-- "Upload" button has been removed -->
+  <div class="buttons-container">
+    <button class="action-button">View</button>
+  </div>
+  
